@@ -3,6 +3,12 @@ import AlbumCard from "./AlbumCard";
 import { albums } from "../data/albums";
 
 function AlbumList() {
+//   const newArray = albums.map((albumObject)) => {
+//     return (
+//       <AlbumCard album={albumObject} />
+//     )
+//   })
+// }
   return (
     <section className="albums">
       <AlbumCard
